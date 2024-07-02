@@ -27,7 +27,7 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "#2d3436",
           "background": "#FF9248",
-          "template": " \uf07b\uea9c {{ .Path }} ",
+          "template": " \uf07b \uea9c {{ .Path }} ",
           "properties": {
             "folder_icon": " \uf07b ",
             "home_icon": "\ue617",
@@ -244,7 +244,9 @@
           "type": "status",
           "style": "plain",
           "foreground": "#e0f8ff",
-          "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ef5350{{ end }}"
+          ],
           "template": "\ue285\ueab6 ",
           "properties": {
             "always_enabled": true
