@@ -119,6 +119,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 export PATH="~/.local/bin:$PATH"
 
+export EDITOR="nvim"
+
 # Tmux
 alias tmux="tmux -f '$XDG_CONFIG_HOME/tmux/tmux.conf'"
 
