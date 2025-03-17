@@ -148,4 +148,7 @@ function take {
   cd $1
 }
 
-alias bee='. ~/apps/Beekeeper-Studio-4.6.8.AppImage'
+alias bee='~/apps/Beekeeper-Studio-5.0.9.AppImage'
+
+# Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
