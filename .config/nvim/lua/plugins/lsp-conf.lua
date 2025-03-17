@@ -13,6 +13,7 @@ return {
                   enabled = true,
                   splitAttributes = "preserve",
                   maxLineWidth = 280,
+                  preservedNewlines = 1,
                 },
               },
               xslt = {
@@ -20,6 +21,7 @@ return {
                   enabled = true,
                   splitAttributes = "preserve",
                   maxLineWidth = 280,
+                  preservedNewlines = 1,
                 },
               },
             },
