@@ -2,7 +2,11 @@ local wezterm = require("wezterm")
 local config = {}
 
 local launch_menu = {}
-config.font = wezterm.font_with_fallback({ "Hack NF JBM Ligatured CCG", "Hack Nerd Font", "JetBrains Mono" })
+config.font = wezterm.font_with_fallback({
+	"Hack NF JBM Ligatured CCG",
+	"JetBrains Mono",
+	"Noto Sans Mono CJK SC",
+})
 config.font_size = 13.0
 
 config.background = {
