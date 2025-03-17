@@ -133,3 +133,8 @@ export PATH=$BUN_INSTALL/bin:$PATH
 
 # Mise
 eval "$(~/.local/bin/mise activate bash)"
+
+# Zoxide
+eval "$(zoxide init bash)"
+
+alias cd='z'
