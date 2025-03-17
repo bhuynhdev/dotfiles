@@ -1,10 +1,9 @@
 return {
   {
     "max397574/better-escape.nvim",
-    lazy = false,
-    opts = {
-      mapping = { "jk", "jj" },
-    },
+    config = function()
+      require("better_escape").setup()
+    end,
   },
   {
     "andymass/vim-matchup",
