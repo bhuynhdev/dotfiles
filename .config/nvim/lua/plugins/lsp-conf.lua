@@ -5,6 +5,13 @@ return {
     opts = {
       inlay_hints = { enabled = false },
       servers = {
+        perlnavigator = {
+          settings = {
+            perlnavigator = {
+              includePaths = vim.fn.glob(vim.fn.getcwd() .. "/*/lib", false, 1),
+            },
+          },
+        },
         lemminx = {
           init_options = {
             settings = {
