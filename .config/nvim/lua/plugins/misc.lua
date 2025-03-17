@@ -14,4 +14,17 @@ return {
       vim.g.matchup_matchparen_offscreen = { method = "popup" }
     end,
   },
+  {
+    -- https://github.com/folke/noice.nvim
+    "folke/noice.nvim",
+    opts = {
+      lsp = {
+        hover = {
+          -- Set not show a message if hover is not available
+          -- https://github.com/LazyVim/LazyVim/discussions/830
+          silent = true,
+        },
+      },
+    },
+  },
 }
