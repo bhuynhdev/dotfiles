@@ -126,3 +126,10 @@ alias tmux="tmux -f '$XDG_CONFIG_HOME/tmux/tmux.conf'"
 
 # Oh my Posh
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/my-atomic.omp.json)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
+# Mise
+eval "$(~/.local/bin/mise activate bash)"
