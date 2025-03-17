@@ -147,3 +147,5 @@ function take {
   mkdir -p $1
   cd $1
 }
+
+alias bee='. ~/apps/Beekeeper-Studio-4.6.8.AppImage'
