@@ -16,6 +16,8 @@ vim.g.snacks_animate = false
 
 vim.opt.expandtab = false
 
+vim.g.autoformat = false
+
 -- Make clipboard works on WSL
 -- https://www.reddit.com/r/neovim/comments/10y3t48/im_struggling_to_get_clipboard_in_wsl_working/
 if vim.fn.has("wsl") == 1 then
