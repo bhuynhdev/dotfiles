@@ -6,9 +6,6 @@ return {
     end,
   },
   {
-    "ggandor/leap.nvim",
-  },
-  {
     "andymass/vim-matchup",
     setup = function()
       vim.g.matchup_matchparen_offscreen = { method = "popup" }
