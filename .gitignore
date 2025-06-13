@@ -1,4 +1,6 @@
 .config/joplin-desktop/*
 
+.config/**/*.bak/
+
 !.config/joplin-desktop/userchrome.css
 !.config/joplin-desktop/userstyle.css
