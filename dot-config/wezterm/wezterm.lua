@@ -5,6 +5,7 @@ local launch_menu = {}
 config.font = wezterm.font_with_fallback({
 	"Hack NF JBM Ligatured CCG",
 	"JetBrains Mono",
+	"Hack Nerd Font",
 	"Noto Sans Mono CJK SC",
 })
 config.font_size = 13.0
