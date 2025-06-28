@@ -1,6 +1,8 @@
-.config/joplin-desktop/*
+dot-config/joplin-desktop/*
 
-.config/**/*.bak/
+dot-config/.wrangler/*
 
-!.config/joplin-desktop/userchrome.css
-!.config/joplin-desktop/userstyle.css
+dot-config/**/*.bak/
+
+!dot-config/joplin-desktop/userchrome.css
+!dot-config/joplin-desktop/userstyle.css
