@@ -167,3 +167,11 @@ alias bee='~/apps/Beekeeper-Studio-5.0.9.AppImage'
 
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# pnpm
+export PNPM_HOME="/home/bhuynhdev/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
