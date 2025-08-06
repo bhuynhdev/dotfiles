@@ -23,6 +23,7 @@ return {
 
   opts = {
     picker = {
+      exclude = { "node_modules/*" },
       actions = {
         explorer_yank_paths = function(picker)
           -- Adapted from: https://github.com/folke/snacks.nvim/blob/bc0630e43be5699bb94dadc302c0d21615421d93/lua/snacks/explorer/actions.lua#L88
@@ -105,7 +106,15 @@ return {
       },
 
       sources = {
+        files = {
+          hidden = true,
+          ignored = false,
+        },
         explorer = {
+          hidden = true,
+          ignored = true,
+          exclude = { "node_modules" },
+          include = { ".env.*" },
           layout = {
             preset = "sidebar",
             layout = { position = "right" },
